@@ -10,3 +10,6 @@ Start server
 ```
 npm start
 ```
+
+#
+Go get your firebase project config and rename to "firebase-config.json"

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image preview</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <input type="text" id="imgId" />
+    <button>Preview</button>
+    <br>
+    <img src="#" alt="Preview Image" />
+    <script defer>
+        $('button').click(function(e) {
+            $('img').attr('src', `../profile/${$('#imgId').val()}`);
+        });
+    </script>
+</body>
+</html>
